@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1 shrink-to-fit-no">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"> 
+	<title>Music Player</title>
+
+	<style type="text/css">
+   
+   *{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#201646;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  margin-top:10px;
+  padding-top: 0px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1{
+  position: relative;
+  padding:0px;
+  color:#111; 
+  font-size:37px; 
+  text-align:center; 
+  margin-top: 0px;
+}
+
+h1 span {
+        animation: animate 2s linear infinite; 
+}
+h1 span:nth-child(1)
+{
+  animation-delay:0s;
+}
+
+h1 span:nth-child(2)
+{
+  animation-delay:0.13s;
+}
+
+h1 span:nth-child(3)
+{
+  animation-delay:0.26s;
+}
+
+h1 span:nth-child(4)
+{
+  animation-delay:0.39s;
+}
+
+h1 span:nth-child(5)
+{
+  animation-delay:0.54s;
+}
+
+h1 span:nth-child(6)
+{
+  animation-delay:0.70s;
+}
+
+h1 span:nth-child(7)
+{
+  animation-delay:0.85s;
+}
+
+h1 span:nth-child(8)
+{
+  animation-delay:0.93s;
+}
+
+h1 span:nth-child(9)
+{
+  animation-delay:1s;
+}
+
+
+@keyframes animate 
+{
+  0%,100%
+  {
+    color:yellow; 
+    filter: blur(0px);
+    text-shadow: 0px 0px 10px #00b3ff, 
+                0px 0px 20px #00b3ff,
+                0px 0px 40px #00b3ff,
+                0px 0px 80px #00b3ff,
+                0px 0px 120px #00b3ff,
+  }
+  5%,95%
+  {
+    color:#285dc7; 
+    filter: blur(0px);
+    text-shadow:  none, 
+  }
+}
+
+h5{
+  color: #2196f3;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+     padding: 10px;
+     padding-left: 13px;
+     padding-right: 13px;
+     margin-top: 40px;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     font-weight: bold;
+     color: #2196f3;
+     border-color:#22a3ff;
+     background-color: #201646;
+     font-size: 24px;
+     border-radius: 6px;
+}
+
+.btn:hover{
+  color: black;
+  background-color:#2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  border-color:  #2196f3;
+}
+
+</style>
+
+</head>
+<body>
+ 
+     <img src="https://i.pinimg.com/originals/9e/03/a6/9e03a65f07f0efdebbe291fccd718f4d.gif">
+
+     <h1>
+        <span>S</span>
+        <span>O</span>
+        <span>L</span>
+        <span>O</span>
+        &nbsp
+        <span>M</span>
+        <span>U</span>
+        <span>S</span>
+        <span>I</span>
+        <span>C</span>
+     </h1>
+
+       <h5>Designed By Nitin Sain</h5>
+
+       <a href="https://nitin326.github.io/music-player/"> <button class="btn">Let's Start</button></a>
+      
+</body>
+</html> 
